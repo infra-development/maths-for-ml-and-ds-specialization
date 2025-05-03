@@ -1,0 +1,62 @@
+= Notations Reference
+:stem:
+:toc:
+:toclevels: 1
+
+The following is a reference for the notations used in this course. It may assist you during the video lectures and assignments. Don't worry if you don't understand them yet; they will be covered during the course.
+
+== Notation Table
+
+[cols="1,3", options="header"]
+|===
+| Notation | Meaning
+
+| `A`, `B`, `C`
+| Capital letters represent _matrices_
+
+| `u`, `v`, `w`
+| Lowercase letters represent _vectors_
+
+| `A` of size stem:[m × n] or stem:[(m × n)]
+| Matrix `A` has `m` rows and `n` columns
+
+| stem:[A^T]
+| Transpose of matrix `A`
+
+| stem:[v^T]
+| Transpose of vector `v`
+
+| stem:[A^{-1}]
+| Inverse of matrix `A`
+
+| stem:[\det(A)]
+| Determinant of matrix `A`
+
+| stem:[AB]
+| Matrix multiplication of matrices `A` and `B`
+
+| stem:[u ⋅ v], stem:[\langle u, v \rangle]
+| Dot product of vectors `u` and `v`
+
+| stem:[\mathbb{R}]
+| The set of real numbers (e.g. `0`, `-0.642`, `2`, `3.456`)
+
+| stem:[\mathbb{R}^2]
+| Set of 2-dimensional vectors +
+ stem:[v = \begin{bmatrix}1 \\ 3\end{bmatrix}]
+
+| stem:[\mathbb{R}^n]
+| Set of `n`-dimensional vectors
+
+| stem:[v \in \mathbb{R}^2]
+| Vector `v` is an element of stem:[\mathbb{R}^2]
+
+| stem:[\|v\|_1]
+| L1-norm of a vector
+
+| stem:[\|v\|_2;\ \|v\|;\ ]
+| L2-norm of a vector (Euclidean norm), written using different notations
+
+| stem:[T : \mathbb{R}^2 \rightarrow \mathbb{R}^3] +
+stem:[T(v) = w]
+| Transformation T maps a vector stem:[v \in \mathbb{R}^2] to a vector stem:[w \in \mathbb{R}^3]
