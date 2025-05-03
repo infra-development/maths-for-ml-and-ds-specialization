@@ -1,0 +1,12 @@
+= Mathematics for Machine Learning and Data Science Specialization
+:toc:
+:toc-title: Table of Contents
+:toclevels: 3
+
+== Introduction
+This specialization is designed to provide a comprehensive understanding of the mathematical concepts and techniques that are essential for machine learning and data science. The courses cover a range of topics, including linear algebra, calculus, probability, and statistics, with a focus on their applications in machine learning and data analysis. By the end of this specialization, learners will have a solid foundation in the mathematics required to understand and implement machine learning algorithms effectively.
+
+== Courses
+1. https://www.coursera.org/learn/machine-learning-linear-algebra?specialization=mathematics-for-machine-learning-and-data-science[Linear Algebra for ML and Data Science]
+2. https://www.coursera.org/learn/machine-learning-calculus?specialization=mathematics-for-machine-learning-and-data-science[Calculus for ML and Data Science]
+3. https://www.coursera.org/learn/machine-learning-probability-and-statistics?specialization=mathematics-for-machine-learning-and-data-science[Probability and Statistics for ML and Data Science]
