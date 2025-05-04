@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, mathtools}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+
+\title{Notational Reference}
+
+\begin{document}
+
+\section*{Notation Table}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{0.35\linewidth}|p{0.6\linewidth}|}
+\hline
+\textbf{Notation} & \textbf{Description} \\
+\hline
+$A, B, C, D$ & Capital letters represent matrices \\
+\hline
+$u, v, w$ & Lowercase letters represent vectors \\
+\hline
+$A$ of size $m \times n$ or $(m \times n)$ & Matrix $A$ has $m$ rows and $n$ columns \\
+\hline
+$A^T$ & The transpose of matrix $A$ \\
+\hline
+$v^T$ & The transpose of vector $v$ \\
+\hline
+$A^{-1}$ & The inverse of matrix $A$ \\
+\hline
+$\det(A)$ & The determinant of matrix $A$ \\
+\hline
+$AB$ & Matrix multiplication of matrices $A$ and $B$ \\
+\hline
+$u \cdot v;\ \langle u, v \rangle$ & Dot product of vectors $u$ and $v$ \\
+\hline
+$\mathbb{R}$ & The set of real numbers, e.g., $0$, $-0.642$, $2$, $3.456$ \\
+\hline
+$\mathbb{R}^2$ & The set of two-dimensional vectors, e.g., $v = \begin{bmatrix} 1 \\ 3 \end{bmatrix}^{T}$ \\
+\hline
+$\mathbb{R}^n$ & The set of $n$-dimensional vectors \\
+\hline
+$v \in \mathbb{R}^2$ & Vector $v$ is an element of $\mathbb{R}^2$ \\
+\hline
+$\|v\|_1$ & The L1-norm of a vector \\
+\hline
+$\|v\|_2$ & The L2-norm of a vector \\
+\hline
+$T : \mathbb{R}^2 \to \mathbb{R}^3;\ T(v) = w$ & Transformation $T$ of a vector $v \in \mathbb{R}^2$ into the vector $w \in \mathbb{R}^3$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\end{document}
